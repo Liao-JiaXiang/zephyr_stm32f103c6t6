@@ -60,7 +60,7 @@ west build -p always -b custom_bluepill
 
 ### 使用West烧录会出错
 
-通过ST-Link编程器连接开发板并运行west flash时，会报错。可能是board.yml中配置的开发板名称与实际开发板名称不一致。 或者是kconfig.custom_bluepill文件中配置的开发板名称与实际开发板名称不一致。我是使用stlink utility直接烧录的，可以正常运行。
+通过ST-Link编程器连接开发板并运行west flash时，会报错,需要烧录时长按开发板上的复位按钮才能正常烧录。使用stlink utility直接烧录可以正常运行。
 
 
 

@@ -5,4 +5,4 @@
 
 config BOARD_CUSTOM_BLUEPILL
 	select SOC_STM32F103X8
-#假装它是 C8T6，不然可能报错。
+#假装它是 C8T6，不然会报错。
