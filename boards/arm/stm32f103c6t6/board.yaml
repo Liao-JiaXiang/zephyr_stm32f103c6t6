@@ -1,0 +1,13 @@
+type: mcu
+arch: arm
+toolchain:
+- zephyr
+- gnuarmemb
+- xtoolsz
+flash: 32
+supported:
+- i2c
+- pwm
+- spi
+- adc
+- gpio

@@ -1,0 +1,42 @@
+# Build outputs
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.log
+*.stat
+
+# Configuration outputs
+.settings/
+.cproject
+.project
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# West build system
+*.pyc
+__pycache__/
+
+# CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+cmake_install.cmake
+
+# Zephyr specific
+.zephyr/
+zephyr/.config
+zephyr/include/generated/
+zephyr/zephyr.dts
+zephyr/.cmake.dotconfig.checksum
