@@ -51,7 +51,10 @@
 ### 使用West构建（推荐）
 
 ```bash
-# 为STM32F103C6T6开发板构建
+# 为STM32F103C6T6开发板构建，需要指定BOARD_ROOT
+west build -b custom_bluepill -- -DBOARD_ROOT=
+D:/my_zephyr/zephyrproject/my_zephyer_code/stm32_led/boards 
+# 不知道行不行
 west build -p always -b custom_bluepill
 ```
 
