@@ -144,7 +144,7 @@ CONFIG_LED=y              # 启用LED驱动
  <span style="color:red">
   因为我使用的是自定义的开发板名称custom_bluepill，所以在烧录时需要指定开发板名称。
 
-  并且需要注意，board.yml和kconfig.custom_bluepill文件中配置的开发板名称与实际开发板名称不一致。这是为了编译成功，因为zephyr官方不支持c6t6。副作用是导致west flash无法正常工作，以及一些未知的问题。
+  并且需要注意，board.yml和kconfig.custom_bluepill文件中配置的开发板名称与实际开发板名称不一致。这是为了编译成功，因为zephyr官方不支持c6t6。可能会导致一些未知的问题。
 
 </span>
 
